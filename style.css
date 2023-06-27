@@ -337,7 +337,7 @@ body{
 .city{
     background-image: url(./city.png);
     background-size: cover;
-    width: 110%;
+    width: 120%;
     height: 250px;
     z-index: 3;
     position: absolute;
@@ -347,7 +347,7 @@ body{
 }
   @keyframes building{
     100%{
-        transform: translate(-25px);
+        transform: translate(-20px);
     }
 }
 
@@ -356,23 +356,31 @@ body{
          padding: 0px;
         margin-left: 0px; 
     }
+    .wheel2{
+        left: 130px;
+        
+    }
     .main-wheel{
-        top: 550px;
-        left: 70px;
+        top: 530px;
+        left: 30px;
     }
     .car{
-        left: 50px;
-        top: 550px;
+        left: 10px;
+        top: 530px;
     }
     .city{
-        top:310px;
+        top:220px;
         width: 150%;
     }
     .flag{
-        top: 500px;
-        left: 225px;
+        top: 490px;
+        left: 190px;
     }
     .road{
-        width: 700%;
+        top: 470px;
+        width: 950%;
+    }
+    .top-text{
+        font-size: 20px;
     }
 }
