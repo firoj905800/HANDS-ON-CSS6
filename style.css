@@ -123,18 +123,28 @@
     justify-content: center;
 }
 .x-asis{
-    width: 50%;
-    display: flex;
+    width: 100%;
+     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     padding: 50px;
     gap: 40px;
 }
 .rotat-page2{
-    width: 100%;
-    background-color: orange;
+    width: 50%;
+    display: block;
+    justify-content: center;
+   
+}
+.ancer2{
     display: flex;
-    justify-content: center; 
+    justify-content: center;
+    font-size: 20px;
+}
+.color{
+    display: flex;
+    justify-content: center;
+    background-color: orange;
 }
 .child1{
     background-color: rgb(81, 118, 152);
